@@ -8,7 +8,7 @@
 
 [fail2bancluster]
 enabled = true
-port = 22,443,80,25,110,143,3128,11443
+port = 22,443,80,25,110,143,465,587,3128,11443
 protocol = tcp
 filter = fail2bancluster
 logpath = /var/log/auth.log
